@@ -1,55 +1,128 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  }
-  .container{
-   height: 100vh;
- }
+}
 
- header{
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
   height: 8%;
-  border: 1px red solid;
+ 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
- }
-.buttons{
+
+}
+.about a{
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+}
+.about a:hover{
+  text-decoration: underline;
+}
+
+.buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px blue solid;
+  
 }
 
-.buttons a{
-  margin-right:1rem ;
+.buttons a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
 }
- .buttons img{
+.buttons a:hover{
+  text-decoration: underline;
+}
+
+.buttons img {
   width: 2rem;
- }
+  border: 5px rgb(255, 255, 255) solid;
+  border-radius: 50%;
+}
+.buttons img:hover{
+  border: 5px rgb(231, 223, 223) solid;
+  background-color: rgb(231, 223, 223);
+}
 
 
 
- .search img{
-  width: 1.2rem;
- }
+.search img {
+  width: 1rem;
+}
 
- .main{
+.main {
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
- }
- .search input{
+  /* margin-top: 10rem; */
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search input {
   width: 35rem;
   height: 2.5rem;
   border-radius: 20px;
- }
- .search #img1{
+  padding-left: 2.2rem;
+  padding-right: 2rem;
+  border:1px rgb(172, 169, 169) solid
+}
+.search input:focus{
+  outline: none;
+  }
+  .search input:hover{
+    background-color: rgb(228, 226, 223);
+  }
+
+.search #img1 {
   position: relative;
   left: -550px;
   top: 7px;
- }
+}
+
+.search #img2 {
+  position: relative;
+  left: -60px;
+  top: 7px;
+}
+
+.search_button {
+  margin-top: 2rem;
+}
+.search_button button{
+  padding: 8px;
+  margin-right: 1rem;
+  background-color: rgb(218, 211, 211);
+  border: 1px white solid;
+  border-radius: 5px;
+}
+.search_button button:hover{
+  border: 1px gray solid;
+}
+footer{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+
+}
+footer a{
+  margin:1rem;
+}
