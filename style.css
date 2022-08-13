@@ -8,7 +8,30 @@
  }
 
  header{
-  height: 5%;
+  height: 8%;
   border: 1px red solid;
-  display: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+ }
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px blue solid;
+}
+
+.buttons a{
+  margin-right:1rem ;
+}
+ .buttons img{
+  width: 2rem;
+ }
+
+
+
+ .search img{
+  width: 2rem;
  }
