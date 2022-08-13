@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  }
+}
 
 .container {
   height: 100vh;
@@ -15,19 +15,21 @@
 
 header {
   height: 8%;
- 
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
 }
-.about a{
+
+.about a {
   text-decoration: none;
   color: black;
   margin: 1rem;
 }
-.about a:hover{
+
+.about a:hover {
   text-decoration: underline;
 }
 
@@ -35,7 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .buttons a {
@@ -43,7 +45,8 @@ header {
   text-decoration: none;
   color: black;
 }
-.buttons a:hover{
+
+.buttons a:hover {
   text-decoration: underline;
 }
 
@@ -52,12 +55,11 @@ header {
   border: 5px rgb(255, 255, 255) solid;
   border-radius: 50%;
 }
-.buttons img:hover{
+
+.buttons img:hover {
   border: 5px rgb(231, 223, 223) solid;
   background-color: rgb(231, 223, 223);
 }
-
-
 
 .search img {
   width: 0.8rem;
@@ -65,7 +67,7 @@ header {
 
 .main {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   align-items: center;
   position: relative;
   top: -15%;
@@ -84,15 +86,16 @@ header {
   border-radius: 20px;
   padding-left: 2.2rem;
   padding-right: 2.4rem;
-  border:1px rgb(183, 173, 173) solid
+  border: 1px rgb(183, 173, 173) solid
 }
-.search 
-.search input:focus{
+
+.search input:focus {
   outline: none;
-  }
-  .search input:hover{
-    background-color: rgb(248, 243, 243);
-  }
+}
+
+.search input:hover {
+  background-color: rgb(248, 243, 243);
+}
 
 .search #img1 {
   position: relative;
@@ -109,27 +112,32 @@ header {
 .search_button {
   margin-top: 2rem;
 }
-.search_button button{
+
+.search_button button {
   padding: 8px;
   margin-right: 1rem;
   background-color: rgb(238, 228, 228);
   border: 1px white solid;
   border-radius: 5px;
 }
-.search_button button:hover{
+
+.search_button button:hover {
   border: 1px gray solid;
 }
-footer{
+
+footer {
   display: flex;
   align-items: center;
   height: 3rem;
 
 }
-footer a{
-  margin:1rem;
+
+footer a {
+  margin: 1rem;
   text-decoration: none;
   color: black;
 }
-footer a:hover{
+
+footer a:hover {
   text-decoration: underline;
 }
