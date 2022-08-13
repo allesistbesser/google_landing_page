@@ -33,5 +33,23 @@
 
 
  .search img{
-  width: 2rem;
+  width: 1.2rem;
+ }
+
+ .main{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+ }
+ .search input{
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 20px;
+ }
+ .search #img1{
+  position: relative;
+  left: -550px;
+  top: 7px;
  }
